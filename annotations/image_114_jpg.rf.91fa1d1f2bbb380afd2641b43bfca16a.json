@@ -1,0 +1,44 @@
+{
+  "num_people": 1,
+  "scene": {
+    "background": "indoor",
+    "lighting": [
+      "bright",
+      "cool"
+    ],
+    "image_quality": [
+      "medium"
+    ]
+  },
+  "person": {
+    "pose": "profile_right",
+    "yaw": 58,
+    "pitch": 2
+  },
+  "mask": {
+    "state": "normal",
+    "type": "surgical",
+    "boundary_quality": "wrinkled",
+    "deformation": true
+  },
+  "occlusion": {
+    "types": [
+      "none"
+    ],
+    "hand_overlap_ratio": 0,
+    "hair_overlap_ratio": 0
+  },
+  "visibility": {
+    "mask_visible_ratio": 0.93,
+    "nose_visible_ratio": 0,
+    "mouth_visible_ratio": 0,
+    "chin_visible_ratio": 0.08
+  },
+  "difficulty": {
+    "segmentation_difficulty": 0.34,
+    "difficulty_reasons": [
+      "deformation",
+      "extreme_pose"
+    ]
+  }
+}

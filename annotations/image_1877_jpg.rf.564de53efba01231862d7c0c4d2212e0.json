@@ -1,0 +1,43 @@
+{
+  "num_people": 2,
+  "scene": {
+    "background": "outdoor",
+    "lighting": [
+      "bright",
+      "uneven"
+    ],
+    "image_quality": [
+      "high"
+    ]
+  },
+  "person": {
+    "pose": "left",
+    "yaw": -28,
+    "pitch": -4
+  },
+  "mask": {
+    "state": "normal",
+    "type": "surgical",
+    "boundary_quality": "sharp",
+    "deformation": false
+  },
+  "occlusion": {
+    "types": [
+      "glasses"
+    ],
+    "hand_overlap_ratio": 0,
+    "hair_overlap_ratio": 0
+  },
+  "visibility": {
+    "mask_visible_ratio": 0.93,
+    "nose_visible_ratio": 0,
+    "mouth_visible_ratio": 0,
+    "chin_visible_ratio": 0.08
+  },
+  "difficulty": {
+    "segmentation_difficulty": 0.29,
+    "difficulty_reasons": [
+      "partial_visibility"
+    ]
+  }
+}

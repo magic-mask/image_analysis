@@ -1,0 +1,10 @@
+# image dataset directory
+./images/
+images/
+
+# python environment
+.venv/
+venv/
+
+# ipynb checkpoints
+.ipynb_checkpoints/

@@ -1,0 +1,45 @@
+{
+  "num_people": 2,
+  "scene": {
+    "background": "outdoor",
+    "lighting": [
+      "bright",
+      "warm"
+    ],
+    "image_quality": [
+      "high"
+    ]
+  },
+  "person": {
+    "pose": "profile_left",
+    "yaw": -72,
+    "pitch": 0
+  },
+  "mask": {
+    "state": "normal",
+    "type": "respirator",
+    "boundary_quality": "sharp",
+    "deformation": false
+  },
+  "occlusion": {
+    "types": [
+      "hand",
+      "glasses"
+    ],
+    "hand_overlap_ratio": 0.12,
+    "hair_overlap_ratio": 0
+  },
+  "visibility": {
+    "mask_visible_ratio": 0.93,
+    "nose_visible_ratio": 0,
+    "mouth_visible_ratio": 0,
+    "chin_visible_ratio": 0.04
+  },
+  "difficulty": {
+    "segmentation_difficulty": 0.34,
+    "difficulty_reasons": [
+      "hand_overlap",
+      "multiple_occlusion"
+    ]
+  }
+}

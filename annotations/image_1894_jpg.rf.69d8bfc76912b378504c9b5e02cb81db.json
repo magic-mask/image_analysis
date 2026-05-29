@@ -1,0 +1,52 @@
+{
+  "num_people": 2,
+  "scene": {
+    "background": "vehicle",
+    "lighting": [
+      "dim",
+      "uneven"
+    ],
+    "image_quality": [
+      "low",
+      "blurry",
+      "compressed"
+    ]
+  },
+  "person": {
+    "pose": "front",
+    "yaw": 8,
+    "pitch": 0
+  },
+  "mask": {
+    "state": "transition_taking_off",
+    "type": "unknown",
+    "boundary_quality": "ambiguous",
+    "deformation": true
+  },
+  "occlusion": {
+    "types": [
+      "hand",
+      "hair",
+      "shadow"
+    ],
+    "hand_overlap_ratio": 0.46,
+    "hair_overlap_ratio": 0.14
+  },
+  "visibility": {
+    "mask_visible_ratio": 0.52,
+    "nose_visible_ratio": 0.18,
+    "mouth_visible_ratio": 0.0,
+    "chin_visible_ratio": 0.0
+  },
+  "difficulty": {
+    "segmentation_difficulty": 0.91,
+    "difficulty_reasons": [
+      "hand_overlap",
+      "low_resolution",
+      "ambiguous_boundary",
+      "shadow",
+      "partial_visibility",
+      "multiple_occlusion"
+    ]
+  }
+}

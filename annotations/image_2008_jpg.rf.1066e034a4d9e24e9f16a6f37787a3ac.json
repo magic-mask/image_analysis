@@ -1,0 +1,45 @@
+{
+  "num_people": 1,
+  "scene": {
+    "background": "plain",
+    "lighting": [
+      "bright",
+      "warm"
+    ],
+    "image_quality": [
+      "high"
+    ]
+  },
+  "person": {
+    "pose": "profile_right",
+    "yaw": 28,
+    "pitch": -6
+  },
+  "mask": {
+    "state": "normal",
+    "type": "cloth",
+    "boundary_quality": "folded",
+    "deformation": true
+  },
+  "occlusion": {
+    "types": [
+      "hand"
+    ],
+    "hand_overlap_ratio": 0.34,
+    "hair_overlap_ratio": 0
+  },
+  "visibility": {
+    "mask_visible_ratio": 0.72,
+    "nose_visible_ratio": 0,
+    "mouth_visible_ratio": 0,
+    "chin_visible_ratio": 0
+  },
+  "difficulty": {
+    "segmentation_difficulty": 0.58,
+    "difficulty_reasons": [
+      "hand_overlap",
+      "deformation",
+      "partial_visibility"
+    ]
+  }
+}

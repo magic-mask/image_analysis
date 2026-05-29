@@ -1,0 +1,45 @@
+{
+  "num_people": 1,
+  "scene": {
+    "background": "indoor",
+    "lighting": [
+      "bright",
+      "warm"
+    ],
+    "image_quality": [
+      "high"
+    ]
+  },
+  "person": {
+    "pose": "left",
+    "yaw": 25,
+    "pitch": 0
+  },
+  "mask": {
+    "state": "normal",
+    "type": "respirator",
+    "boundary_quality": "sharp",
+    "deformation": false
+  },
+  "occlusion": {
+    "types": [
+      "hand",
+      "hair",
+      "clothing"
+    ],
+    "hand_overlap_ratio": 0.08,
+    "hair_overlap_ratio": 0.06
+  },
+  "visibility": {
+    "mask_visible_ratio": 0.92,
+    "nose_visible_ratio": 0,
+    "mouth_visible_ratio": 0,
+    "chin_visible_ratio": 0
+  },
+  "difficulty": {
+    "segmentation_difficulty": 0.28,
+    "difficulty_reasons": [
+      "partial_visibility"
+    ]
+  }
+}

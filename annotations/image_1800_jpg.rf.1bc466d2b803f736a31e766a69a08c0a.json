@@ -1,0 +1,45 @@
+{
+  "num_people": 2,
+  "scene": {
+    "background": "outdoor",
+    "lighting": [
+      "bright",
+      "backlit"
+    ],
+    "image_quality": [
+      "medium"
+    ]
+  },
+  "person": {
+    "pose": "front",
+    "yaw": 8,
+    "pitch": 2
+  },
+  "mask": {
+    "state": "nose_exposed",
+    "type": "surgical",
+    "boundary_quality": "wrinkled",
+    "deformation": true
+  },
+  "occlusion": {
+    "types": [
+      "hand"
+    ],
+    "hand_overlap_ratio": 0.22,
+    "hair_overlap_ratio": 0
+  },
+  "visibility": {
+    "mask_visible_ratio": 0.86,
+    "nose_visible_ratio": 0.48,
+    "mouth_visible_ratio": 0,
+    "chin_visible_ratio": 0
+  },
+  "difficulty": {
+    "segmentation_difficulty": 0.72,
+    "difficulty_reasons": [
+      "hand_overlap",
+      "deformation",
+      "shadow"
+    ]
+  }
+}
